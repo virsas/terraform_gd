@@ -6,7 +6,7 @@ Terraform module to enable AWS guardduty
 
 ``` terraform
 module "gd_eu_west_1" {
-  source = "github.com/virsas/terraform_gd"
+  source = "git::https://github.com/virsas/terraform_gd.git?ref=v1.0.0"
   // region in which you want to enable the guardduty
   region = "eu-west-1"
 }
